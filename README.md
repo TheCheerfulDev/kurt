@@ -29,6 +29,7 @@ kurt visualizes Kubernetes resource relationship trees by traversing parent-chil
 ## Requirements
 - Go 1.26+ (when building from source)
 - Access to a Kubernetes cluster
+
 ## Installation
 Install via Homebrew:
 
