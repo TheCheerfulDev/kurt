@@ -27,10 +27,16 @@ kurt visualizes Kubernetes resource relationship trees by traversing parent-chil
 - Inactive (zero-pod) ReplicaSets are hidden by default for a cleaner tree; use `--show-inactive` to include them
 
 ## Requirements
-- Go 1.26+
+- Go 1.26+ (when building from source)
 - Access to a Kubernetes cluster
-
 ## Installation
+Install via Homebrew:
+
+```bash
+brew install thecheerfuldev/cli/kurt
+```
+
+## Build from source
 Build from source with the provided Makefile:
 
 ```bash
